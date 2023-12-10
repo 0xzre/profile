@@ -75,7 +75,7 @@ function App() {
             alt="abd photo"
             className="rounded-lg mx-auto"
             height="400"
-            src="./src/assets/photo.jpg"
+            src="./assets/photo.jpg"
             style={{
               aspectRatio: "600/400",
               objectFit: "cover",
@@ -164,7 +164,7 @@ function App() {
                   </div>
                   <div className="flex justify-center items-center">
                     <img
-                      src="./src/assets/solidity.png"
+                      src="./assets/solidity.png"
                       className="w-[3rem] bg-gray-400 p-1"
                     />
                   </div>
@@ -183,7 +183,7 @@ function App() {
                   <div className="flex justify-center items-center">
                     <a href="https://vund-demo.vercel.app/" target="_blank">
                       <img
-                        src="./src/assets/vund.png"
+                        src="./assets/vund.png"
                         className="w-[900px] bg-gray-400 p-1"
                       />
                     </a>
@@ -196,7 +196,7 @@ function App() {
                   <div className="flex justify-center items-center">
                     <a href="https://baung.vercel.app/" target="_blank">
                       <img
-                        src="./src/assets/baung.png"
+                        src="./assets/baung.png"
                         className="w-[900px] bg-gray-400 p-1"
                       />
                     </a>

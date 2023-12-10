@@ -6,7 +6,7 @@ import { GoRocket } from "react-icons/go";
 function App() {
   return (
     <div className="bg-primary text-primary-foreground min-h-screen px-10 sm:px-20 md:px-40 pb-20">
-      <nav className="flex justify-between items-center py-6">
+      <nav className="flex justify-between items-center py-6 fixed w-[80%] bg-primary">
         <div className="text-4xl font-bold text-[#bd1e59]">abd</div>
         <div className="space-x-6 text-lg">
           <a className="hover:underline" href="#">
@@ -20,7 +20,7 @@ function App() {
           </a>
         </div>
       </nav>
-      <div className="grid grid-cols-1 gap-10">
+      <div className="grid grid-cols-1 gap-10 pt-28">
         <div className="space-y-6">
           <div className="flex space-x-6 justify-center">
             <FaNapster className="text-[#bd1e59] text-4xl" />

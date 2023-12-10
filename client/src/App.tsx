@@ -1,22 +1,36 @@
-import { Button } from "@/components/ui/button"
 import { FaNapster } from "react-icons/fa";
 import { FaMugHot } from "react-icons/fa";
 import { GoRocket } from "react-icons/go";
+import { DiReact } from "react-icons/di";
+import { DiVisualstudio } from "react-icons/di";
+import { DiVim } from "react-icons/di";
+import { DiNodejs } from "react-icons/di";
+import { DiAngularSimple } from "react-icons/di";
+import { DiMongodb } from "react-icons/di";
+import { DiLinux } from "react-icons/di";
+import { DiPostgresql } from "react-icons/di";
+import { DiAws } from "react-icons/di";
+import { DiGoogleCloudPlatform } from "react-icons/di";
+import { DiDocker } from "react-icons/di";
+import { DiJava } from "react-icons/di";
+import { DiGo } from "react-icons/di";
+import { DiRust } from "react-icons/di";
+
 
 function App() {
   return (
-    <div className="bg-primary text-primary-foreground min-h-screen px-10 sm:px-20 md:px-40 pb-20">
+    <div className="bg-primary text-primary-foreground min-h-screen px-10 sm:px-20 md:px-40 pb-20 scroll-smooth">
       <nav className="flex justify-between items-center py-6 fixed w-[80%] bg-primary">
         <div className="text-4xl font-bold text-[#bd1e59]">abd</div>
-        <div className="space-x-6 text-lg">
-          <a className="hover:underline" href="#">
-            Home
+        <div className="space-x-3 text-lg">
+          <a className="p-3 rounded-md transition duration-300 hover:bg-slate-700" href="#">
+            /
           </a>
-          <a className="hover:underline" href="#">
-            About
+          <a className="p-3 rounded-md transition duration-300 hover:bg-slate-700" href="#">
+            Tech
           </a>
-          <a className="hover:underline" href="#">
-            Work
+          <a className="p-3 rounded-md transition duration-300 hover:bg-slate-700" href="#">
+            Projects
           </a>
         </div>
       </nav>
@@ -53,10 +67,94 @@ function App() {
             }}
             width="600"
           />
-          <p className="text-center">
+          <p className="text-center text-lg">
             Hey there, I’m abd! I’m a software engineer based in Indonesia. I’ve taken programming seriously since the covid era. Recently,
             however, I’ve built some projects that I’m proud of.
           </p>
+        </div>
+        <div className="mt-28 space-y-8 flex flex-col">
+          <h1 className="text-4xl font-semibold text-center">
+            Tech Stacks
+          </h1>
+          <div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-20 mt-10">
+              <div className="flex flex-col items-center space-y-4">
+                <div className="text-2xl font-semibold">Frontend</div>
+                <div className="flex space-x-4">
+                  <div>
+                    <DiReact size='5rem'/>
+                  </div>
+                  <div>
+                    <DiAngularSimple size='5rem'/>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col items-center space-y-4">
+                <div className="text-2xl font-semibold">Backend</div>
+                <div className="flex space-x-4">
+                  <div>
+                    <DiNodejs size='5rem'/>
+                  </div>
+                  <div>
+                    <DiJava size='5rem'/>
+                  </div>
+                  <div>
+                    <DiGo size='5rem'/>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col items-center space-y-4">
+                <div className="text-2xl font-semibold">Tools</div>
+                <div className="flex space-x-4">
+                  <div>
+                    <DiVisualstudio size='5rem'/>
+                  </div>
+                  <div>
+                    <DiVim size='5rem'/>
+                  </div>
+                  <div>
+                    <DiLinux size='5rem'/>
+                  </div>
+                  <div>
+                    <DiDocker size='5rem'/>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col items-center space-y-4">
+                <div className="text-2xl font-semibold">Cloud</div>
+                <div className="flex space-x-4">
+                  <div>
+                    <DiAws size='5rem'/>
+                  </div>
+                  <div>
+                    <DiGoogleCloudPlatform size='5rem'/>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col items-center space-y-4">
+                <div className="text-2xl font-semibold">Database</div>
+                <div className="flex space-x-4">
+                  <div>
+                    <DiMongodb size='5rem'/>
+                  </div>
+                  <div>
+                    <DiPostgresql size='5rem'/>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col items-center space-y-4">
+                <div className="text-2xl font-semibold">Blockchain</div>
+                <div className="flex space-x-4">
+                  <div>
+                    <DiRust size='5rem'/>
+                  </div>
+                  <div className="flex justify-center items-center">
+                    <img src="./src/assets/solidity.png" className='w-[3rem] bg-gray-400 p-1'/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

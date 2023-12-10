@@ -85,7 +85,7 @@ function App() {
           <p className="text-center text-lg">
             Hey there, I’m abd! I’m a software engineer based in Indonesia. I’ve
             taken programming seriously since the covid era. Recently, however,
-            I’ve built some projects that I’m proud of.
+            I’ve built some projects that I’m proud of. My interests are ranging from web3, blockchain, and distributed systems.
           </p>
         </div>
         <div id="tech" className="space-y-8 flex flex-col">
